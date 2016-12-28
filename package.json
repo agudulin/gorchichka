@@ -8,7 +8,7 @@
   "scripts": {
     "pretest": "npm run transpile",
     "test": "standard",
-    "transpile": "babel --stage 0 ./src -d ./dist",
+    "transpile": "babel src --out-dir dist --copy-files",
     "prepush": "npm test",
     "prepublish": "npm run transpile",
     "postpublish": "rm -rf ./dist"

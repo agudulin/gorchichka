@@ -9,7 +9,7 @@ yarn add gorchichka
 
 ### Usage
 
-```sh
+```js
 import gorchichka from 'gorchichka'
 
 gorchichka.getQuote()  // → я варил и жрал снегирей
