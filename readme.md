@@ -12,7 +12,19 @@ yarn add gorchichka
 ```js
 import gorchichka from 'gorchichka'
 
-gorchichka.getQuote()  // → я варил и жрал снегирей
+gorchichka.getQuote()
+// → я варил и жрал снегирей
+
+gorchichka.getQuote({ details: true })
+// → {
+//  album: {
+//    title: 'Ломбард',
+//    year: 2015
+//  },
+//  song: 'Ломбард',
+//  quote: 'я варил и жрал снегирей'
+// }
+
 ```
 
 ### Lyrics
