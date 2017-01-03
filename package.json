@@ -2,7 +2,7 @@
   "name": "gorchichka",
   "version": "0.1.1",
   "description": "krovostok lyrics quotes",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Alexander Gudulin <alexandr.gudulin@gmail.com>",
   "license": "MIT",
   "scripts": {
