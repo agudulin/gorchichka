@@ -13,11 +13,18 @@ describe('getQuote', () => {
 
     expect(quote).toEqual({
       album: {
+        index: expect.any(Number),
         title: expect.any(String),
         year: expect.any(Number)
       },
-      song: expect.any(String),
-      quote: expect.any(String)
+      song: {
+        index: expect.any(Number),
+        title: expect.any(String)
+      },
+      quote: {
+        index: expect.any(Number),
+        title: expect.any(String)
+      }
     })
   })
 })
