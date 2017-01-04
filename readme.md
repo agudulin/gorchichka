@@ -24,11 +24,18 @@ gorchichka.getQuote()
 gorchichka.getQuote({ details: true })
 // → {
 //  album: {
+//    index: 4,
 //    title: 'Ломбард',
 //    year: 2015
 //  },
-//  song: 'Ломбард',
-//  quote: 'я варил и жрал снегирей'
+//  song: {
+//    index: 4,
+//    title: 'Ломбард'
+//  },
+//  quote: {
+//    index: 1,
+//    title: 'я варил и жрал снегирей'
+//  }
 // }
 
 ```
