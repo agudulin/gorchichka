@@ -1,3 +1,4 @@
+import transform from './transform'
 import randomElement from './randomElement'
 import lyrics from './lyrics.json'
 
@@ -19,10 +20,10 @@ export default (options = { details: false }) => {
       },
       quote: {
         index: randQuote.index,
-        title: randQuote.item
+        title: transform(randQuote.item)
       }
     }
   }
 
-  return randQuote.item
+  return transform(randQuote.item)
 }

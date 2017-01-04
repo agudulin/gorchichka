@@ -1,3 +1,4 @@
+import transform from './transform'
 import lyrics from './lyrics.json'
 
 export default (albumIndex, songIndex, quoteIndex, options = { details: false }) => {
@@ -5,7 +6,7 @@ export default (albumIndex, songIndex, quoteIndex, options = { details: false })
   try {
     album = lyrics.albums[albumIndex]
     song = album.songs[songIndex]
-    quote = song.quotes[quoteIndex]
+    quote = transform(song.quotes[quoteIndex])
   } catch (e) {
     return { error: 'Wrong index provided' }
   }
