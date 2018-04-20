@@ -1,4 +1,6 @@
 ### gorchichka
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/agudulin/gorchichka.svg)](https://greenkeeper.io/)
 > krovostok lyrics quotes
 
 [![npm](https://img.shields.io/npm/v/gorchichka.svg?style=flat-square)](https://www.npmjs.com/package/gorchichka)
